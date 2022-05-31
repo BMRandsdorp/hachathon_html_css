@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css" />
+    <title>Contact</title>
+</head>
+<body>
+    <header> 
+        <nav class="navigation">
+               <ul>
+                   <li> <a href="index.html" title="Home"> Home </a></li>
+                   <li> <a href="page_2.html" title="History"> History </a></li>
+                   <li> <a href="page_3.html" title="Equipment"> Equipment </a></li>
+                   <li> <a href="page_4.html" title="Championships + Competitions"> Championships + Competitions </a></li>
+                   <li> <a href="page_5.html" title="5"> Contact </a></li>
+               </ul>
+           </nav>
+       </header>
+    <main>
+        <h1>Contact</h1>
+        <div>
+            <p>
+                Got any questions about Underwaterhockey? You can fill out the form below and we will provide you with the answers you seek.
+            </p>
+            <form name="underwaterhockey" method="POST" data-netlify="true">
+               <div class="person-info"> 
+                <p> 
+                <input type="name" name="name" value="your name"/>
+                </p>
+                <p> 
+                <input type="email" name="email" value="your email"/>
+                </p>
+                <p>
+                <input type="tel" name="telephone number" value="telephone number (tel)" />
+                </p>
+                <p> 
+                 Date of birth: 
+                 <p> 
+                    <input type="date" name="date of birth" value="date of birth"/>
+                    </p>
+                </p>
+            </div>
+                <p>
+                    Gender:
+                    <p> 
+                     <label>Male  <input type="radio" name="gender" value="male"/> </label>
+                    <label>Female <input type="radio" name="gender" value="female"/> </label>
+                    <label>Other <input type="radio" name="gender" value="other"/> </label>
+                    </p>
+                </p>
+                <p>
+                    I want:
+                   <div class="checkbox">
+                       <ul>
+                      <li> <label> <input type="checkbox" name="information" value="intro"/> A introductionary course to underwaterhockey for me or a group  </label> </li> 
+                      <li> <label> <input type="checkbox" name="information" value="watch"/> To know where I can watch underwaterhockey matches  </label> </li> 
+                      <li> <label> <input type="checkbox" name="information" value="clubs"/> To know if there're clubs near me that play underwaterhockey  </label> </li> 
+                      <li> <label> <input type="checkbox" name="information" value="other"/> Other: fill out below  </label> </li> 
+                    </ul>
+                    </div>
+                </p>
+                <textarea rows="5" cols="40" name="other_questions"> </textarea>
+                <p> 
+                    <button type="submit">Send</button>
+                    <button type="reset">Reset</button>
+                </p>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
